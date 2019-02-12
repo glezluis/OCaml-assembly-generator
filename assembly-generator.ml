@@ -160,7 +160,8 @@ let codegen ast =
 function call with tree literal
 The tree is made by the following c code 
   int gcd() {
-    int i = getint(), j = getint();
+    int i = getint()
+    int j = getint();
 
     while(i != j) {
       if (i > j) 
